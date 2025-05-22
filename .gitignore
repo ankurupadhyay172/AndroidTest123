@@ -1,0 +1,94 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Gradle files
+.gradle/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local configuration file
+local.properties
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Keystore files (do not share your signing keys!)
+*.jks
+*.keystore
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Kotlin/Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+# Android Studio captures
+captures/
+
+# NDK
+.obj/
+*.so
+
+# Jetpack Compose compiler artifacts
+*.kotlin_module
+
+# Auto-generated files by Android
+generated/
+
+# Cache
+.cxx/
+.cache/
+build/
+bin/
+out/
+
+# Unit test reports
+test-output/
+
+# Android lint
+lint/reports/
+lint/intermediates/
+
+# Firebase crashlytics and performance
+crashlytics-build.properties
+firebase-performance/
+
+# Misc
+*.hprof
+*.orig
+*.bak
+
+# Node (if you're using React Native or any JS/TS library inside Android)
+node_modules/
+npm-debug.log
+
+# VSCode (if you or someone on your team uses it)
+.vscode/
+
+# Signing info (if you use .env or .properties files for secrets)
+*.env
+.env.*
+
