@@ -65,7 +65,7 @@ dependencies {
     implementation(libs.converter.gson)
     implementation (libs.androidx.lifecycle.runtime.compose)
     implementation(libs.androidx.navigation.compose)
-
+    implementation ("androidx.compose.material:material-icons-core:1.6.7")
     kapt(libs.hilt.compiler)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
