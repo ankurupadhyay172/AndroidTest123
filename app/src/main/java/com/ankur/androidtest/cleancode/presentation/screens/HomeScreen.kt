@@ -47,6 +47,7 @@ fun HomeScreen(
                 LoadingScreen()
             }
 
+
             uiState.error.isNotEmpty() -> {
                 LazyColumn(modifier = Modifier.fillMaxSize()) {
                     item {
